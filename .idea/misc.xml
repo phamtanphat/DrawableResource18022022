@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/DrawableResource18022022/app/src/main/res/drawable/bg_corner_container_input.xml" value="0.2135" />
+        <entry key="..\:/DrawableResource18022022/app/src/main/res/drawable/bg_main.xml" value="0.2135" />
+        <entry key="..\:/DrawableResource18022022/app/src/main/res/drawable/bg_main_container.xml" value="0.2135" />
         <entry key="..\:/DrawableResource18022022/app/src/main/res/drawable/bg_shape.xml" value="0.2375" />
         <entry key="..\:/DrawableResource18022022/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
       </map>
