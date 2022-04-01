@@ -7,25 +7,37 @@
     tools:context=".MainActivity">
 
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:background="@drawable/bg_state"
-        android:text="State"
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:background="@drawable/bg_state"-->
+<!--        android:text="State"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+<!--    <EditText-->
+<!--        android:padding="10dp"-->
+<!--        android:background="@drawable/bg_state_focus"-->
+<!--&lt;!&ndash;        app:layout_constraintVertical_bias="0.2"&ndash;&gt;-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+
+    <RatingBar
+        android:stepSize="0.1"
+        android:minHeight="30dp"
+        android:progressDrawable="@drawable/bg_rating"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-
-    <EditText
-        android:padding="10dp"
-        android:background="@drawable/bg_state_focus"
-        app:layout_constraintVertical_bias="0.2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
